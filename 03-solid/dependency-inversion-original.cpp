@@ -4,7 +4,8 @@
 Explanation:
 
 - The Manager class directly depends on the Worker and Robot classes.
-- This violates DIP because Manager depends on specific implementations, making it difficult to change or extend with new types of workers.
+- This violates DIP because Manager depends on specific implementations, making it 
+  difficult to change or extend with new types of workers.
 */
 class Worker {
 public:

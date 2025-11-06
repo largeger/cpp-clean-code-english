@@ -27,7 +27,8 @@ public:
 };
 
 // Adapter Class: RectangleToSquareAdapter
-// This class adapts Rectangle to the Square interface. It holds a reference to a Rectangle object and implements getSideLength. If the Rectangle is actually square-like (width equals height), it returns the width as the side length; otherwise, it prints a warning and returns 0.0f.
+// This class adapts Rectangle to the Square interface. It holds a reference to a Rectangle object and implements getSideLength. 
+// If the Rectangle is actually square-like (width equals height), it returns the width as the side length; otherwise, it prints a warning and returns 0.0f.
 class RectangleToSquareAdapter : public Square {
 private:
     Rectangle& rectangle;
